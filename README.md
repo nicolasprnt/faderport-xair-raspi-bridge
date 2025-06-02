@@ -64,17 +64,13 @@ Aucune ligne de code écrite pour l’instant – l’objectif est de documenter
 ## 📚 Ressources techniques
 
 ### 🎚️ Protocole MCU (Mackie Control Universal)
-
-- [MCU Protokoll (German, très complet)](https://www.mackie.com/pdf/mcu_protocol.pdf)
-- [Discussion MIDI MCU sur StackExchange](https://music.stackexchange.com/questions/120311/how-to-send-data-to-mcu)
-- [Liste de messages MIDI MCU sur Logic Users Group](https://logic-users-group.com/threads/mcu-midi-implementation.6469/)
-
+- Specifation MCU Protocol: http://www.midibox.org/dokuwiki/doku.php?id=mc_protocol_mappings
+- MCU DIY Guide: https://sites.google.com/view/mackiecontroluniversaldiyguide/home
+  
 ### 🎛️ Protocole OSC XR16/XR18
-
-- [Documentation officielle Behringer OSC](https://behringer.world/wiki/doku.php?id=x-air_osc_protocol)
-- [Liste complète des commandes OSC XR18/XR16 (GitHub)](https://github.com/mtbin/XAir-API/blob/master/XAir%20OSC%20Protocol.pdf)
-- [Exemples Python de pilotage OSC](https://github.com/hoffmannj/xair-remote)
-
+- Guide démarrage rapide xAir16: https://manuals.plus/fr/behringer/x-air-xr16-digital-mixer-for-ios-and-android-manual
+- Manuel : https://mediadl.musictribe.com/media/PLM/data/docs/X-AIR/M_BE_0605-AAA_X-AIR_FR.pdf
+- X AIR Mixer Series Remote Control Protocol: https://mediadl.musictribe.com/download/software/behringer/XAIR/X%20AIR%20Remote%20Control%20Protocol.pdf 
 ### 🧠 Outils Python
 
 - [`python-rtmidi`](https://pypi.org/project/python-rtmidi/) – pour écouter/émettre des messages MIDI
